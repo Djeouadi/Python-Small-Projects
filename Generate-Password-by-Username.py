@@ -10,5 +10,6 @@ for password in user_name:
      sugg=random.choices(strings,k=random.randint(1,8))
      sugg_password=[pure_user]+sugg
      random.shuffle(sugg_password)     
+        
 print(f"\nThis is your pure username :{pure_user}\n")
 print(f"The password you can use is : {"".join(sugg_password)} ")
